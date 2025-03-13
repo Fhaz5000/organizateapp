@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|d:\\proyecto empleo\\organizateapp\\backend\\organizateapi\\organizateapi\\organizateapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|solutionrelative:organizateapi\\organizateapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|d:\\proyecto empleo\\organizateapp\\backend\\organizateapi\\organizateapi\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|solutionrelative:organizateapi\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|d:\\proyecto empleo\\organizateapp\\backend\\organizateapi\\organizateapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|solutionrelative:organizateapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|d:\\proyecto empleo\\organizateapp\\backend\\organizateapi\\organizateapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|solutionrelative:organizateapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|d:\\proyecto empleo\\organizateapp\\backend\\organizateapi\\organizateapi\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B095AD-90FC-4FA0-981D-80864977819E}|OrganizateApi\\OrganizateApi.csproj|solutionrelative:organizateapi\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "OrganizateApi\\Models\\Tarea.cs",
+              "ToolTip": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Models\\Tarea.cs",
+              "RelativeToolTip": "OrganizateApi\\Models\\Tarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:07:33.922Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrganizateApi.http",
+              "DocumentMoniker": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\OrganizateApi.http",
+              "RelativeDocumentMoniker": "OrganizateApi\\OrganizateApi.http",
+              "ToolTip": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\OrganizateApi.http",
+              "RelativeToolTip": "OrganizateApi\\OrganizateApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-13T12:08:15.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OrganizateApi\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OrganizateApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:02:08.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "OrganizateApi\\Controllers\\TareasController.cs",
+              "ToolTip": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "OrganizateApi\\Controllers\\TareasController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:14:54.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Program.cs",
+              "RelativeDocumentMoniker": "OrganizateApi\\Program.cs",
+              "ToolTip": "D:\\Proyecto Empleo\\organizateapp\\Backend\\OrganizateApi\\OrganizateApi\\Program.cs",
+              "RelativeToolTip": "OrganizateApi\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T11:07:00.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

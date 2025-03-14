@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Lista de Tareas</h2>
+    <ul class="list-group">
+      <li *ngFor="let tarea of tareas" class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <input type="checkbox" [checked]="tarea.estado === EstadoTarea.Completada" (change)="alternarEstado(tarea)">
+          <span [class.text-decoration-line-through]="tarea.estado === EstadoTarea.Completada">{{ tarea.titulo }}</span>
+        </div>
+        <button class="btn btn-danger btn-sm" (click)="eliminarTarea(tarea.id)">Eliminar</button>
+      </li>
+    </ul>
+  </div>
+  

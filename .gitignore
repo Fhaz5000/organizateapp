@@ -1,0 +1,38 @@
+## IDEs y editores
+.idea/
+.vscode/
+
+## Dependencias de Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+## Archivos de salida de Angular
+/dist/
+/out-tsc/
+
+## Builds y test coverage
+/tmp/
+/coverage/
+
+## Configuración del entorno
+/src/environments/environment.prod.ts
+/src/environments/environment.ts
+
+## Archivos de registro y temporales
+*.log
+*.tmp
+
+## Configuración del sistema operativo
+.DS_Store*
+Thumbs.db
+
+## Archivos generados por Angular CLI
+.angular/
+
+## Otros
+/.cache/
+/.angular/cache/

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrganizateApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3143b228f7eec88a816596040ed563b93a2d3d88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95d8576bf0945bf4ba241df47ae6a3f881f98406")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrganizateApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrganizateApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,7 +12,7 @@ import { Tarea, EstadoTarea } from '../../models/tarea.model';
 })
 export class TareaListComponent implements OnInit {
   tareas: Tarea[] = [];
-  EstadoTarea = EstadoTarea; // 🔹 Exponer EstadoTarea para el HTML
+  EstadoTarea = EstadoTarea; 
 
   constructor(private tareaService: TareaService) {}
 
@@ -23,6 +23,7 @@ export class TareaListComponent implements OnInit {
   cargarTareas(): void {
     this.tareaService.obtenerTareas().subscribe(data => {
       this.tareas = data;
+      console.log(data);
     });
   }
 

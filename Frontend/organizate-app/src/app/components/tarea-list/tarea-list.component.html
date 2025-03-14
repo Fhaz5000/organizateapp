@@ -1,13 +1,34 @@
-<div class="container">
-    <h2>Lista de Tareas</h2>
-    <ul class="list-group">
-      <li *ngFor="let tarea of tareas" class="list-group-item d-flex justify-content-between align-items-center">
-        <div>
-          <input type="checkbox" [checked]="tarea.estado === EstadoTarea.Completada" (change)="alternarEstado(tarea)">
-          <span [class.text-decoration-line-through]="tarea.estado === EstadoTarea.Completada">{{ tarea.titulo }}</span>
-        </div>
-        <button class="btn btn-danger btn-sm" (click)="eliminarTarea(tarea.id)">Eliminar</button>
-      </li>
-    </ul>
+<div class="container mt-4">
+  <h2 class="mb-3 text-center">Lista de Tareas</h2>
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Título</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let tarea of tareas; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td [class.text-decoration-line-through]="tarea.estado === EstadoTarea.Completada">
+            {{ tarea.titulo }}
+          </td>
+          <td class="text-center">
+            <input type="checkbox" class="form-check-input" 
+                   [checked]="tarea.estado === EstadoTarea.Completada" 
+                   (change)="alternarEstado(tarea)">
+          </td>
+          <td class="text-center">
+            <button class="btn btn-danger btn-sm" (click)="eliminarTarea(tarea.id)">
+              <i class="bi bi-trash"></i> Eliminar
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  
+</div>

@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\OrganizateApi",
+    "\\OrganizateApi\\Controllers",
     "\\OrganizateApi\\Models"
   ],
-  "SelectedNode": "\\OrganizateApi\\Program.cs",
+  "SelectedNode": "\\OrganizateApi\\Controllers\\TareasController.cs",
   "PreviewInSolutionExplorer": false
 }

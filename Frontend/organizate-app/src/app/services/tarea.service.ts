@@ -22,6 +22,7 @@ export class TareaService {
   actualizarTarea(tarea: Tarea): Observable<Tarea> {
     return this.http.put<Tarea>(`${this.apiUrl}/${tarea.id}`, tarea);
   }
+  
 
   eliminarTarea(id: number): Observable<void> {
     return this.http.delete<void>(`${this.apiUrl}/${id}`);

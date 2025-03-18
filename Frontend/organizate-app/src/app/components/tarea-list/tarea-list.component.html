@@ -12,7 +12,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let tarea of tareas; let i = index">
-          <td>{{ i + 1 }}</td>
+          <td>{{ tarea.id }}</td>
           <td [class.text-decoration-line-through]="tarea.estado === EstadoTarea.Completada">
             {{ tarea.titulo }}
           </td>
@@ -22,6 +22,9 @@
                    (change)="alternarEstado(tarea)">
           </td>
           <td class="text-center">
+            <button class="btn btn-primary btn-sm me-2" (click)="eliminarTarea(tarea.id)">
+              <i class="bi bi-trash"></i> Editar
+            </button>
             <button class="btn btn-danger btn-sm" (click)="eliminarTarea(tarea.id)">
               <i class="bi bi-trash"></i> Eliminar
             </button>

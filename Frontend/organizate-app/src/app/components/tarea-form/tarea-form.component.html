@@ -1,1 +1,41 @@
-<p>tarea-form works!</p>
+<div class="container mt-4">
+    <div class="card shadow-lg p-4">
+      <h2 class="text-center mb-4">Agregar Nueva Tarea</h2>
+  
+      <form [formGroup]="tareaForm" (ngSubmit)="agregarTarea()">
+        <!-- Título -->
+        <div class="mb-3">
+          <label for="titulo" class="form-label">Título:</label>
+          <input 
+            type="text" 
+            id="titulo" 
+            class="form-control" 
+            formControlName="titulo" 
+            placeholder="Ingrese el título"
+            required 
+          />
+        </div>
+  
+        <!-- Descripción -->
+        <div class="mb-3">
+          <label for="descripcion" class="form-label">Descripción:</label>
+          <textarea 
+            id="descripcion" 
+            class="form-control" 
+            formControlName="descripcion" 
+            placeholder="Ingrese una descripción"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+  
+        <!-- Botón -->
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary" [disabled]="tareaForm.invalid">
+            <i class="bi bi-plus-circle"></i> Agregar Tarea
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

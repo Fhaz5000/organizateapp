@@ -3,6 +3,7 @@ import { TareaListComponent } from './components/tarea-list/tarea-list.component
 import { TareaFormComponent } from './components/tarea-form/tarea-form.component';
 import { TareaService } from './services/tarea.service';
 import { Tarea, EstadoTarea } from './models/tarea.model';
+import { Router } from '@angular/router'; 
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -12,18 +13,9 @@ import { Tarea, EstadoTarea } from './models/tarea.model';
 })
 export class AppComponent {
   title = 'Organizate';
-  constructor(private tareaService: TareaService) {}
+  constructor(private tareaService: TareaService,private router: Router) {}
 
-  crearTarea() {
-    const nuevaTarea: Tarea = {
-      titulo: 'Nueva tarea',
-      descripcion: 'Descripción de la tarea',
-      estado: EstadoTarea.Pendiente // Usar el enum correctamente
-    };
-
-    this.tareaService.agregarTarea(nuevaTarea).subscribe({
-      next: (tareaCreada) => console.log('Tarea creada:', tareaCreada),
-      error: (error) => console.error('Error al crear la tarea:', error)
-    });
-  }
+  
+  
+  
 }
